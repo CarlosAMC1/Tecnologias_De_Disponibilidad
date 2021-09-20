@@ -236,29 +236,110 @@ sistema generalizado. Además, los servidores de recuperación están obligados
 a contar con copias de los shards de la base de datos, los backups son más 
 complicados de realizar y se introduce una complejidad operacional que lo hace
  todo más complicado en términos globales.
- \subsection{Herramienta Entity Framework}
- Entity Framework es el ORM de Microsoft, con versiones tanto para la plataforma .NET "tradicional"
- como para .NET Core. 
- Como vimos en el articulo del enlace anterior, en el que se expliocaba con detalle que es un ORM, este tipo de software
- puede funcionar de varias maneras diferentes a la hora de "mapear" las clases de nuestro programa orientado a objetos y las tablas en la 
- base de datos 
- Entity Framework no es una excepcion, y nos ofrece diversas maneras de trabajar con los datos desde nuestros porgramas. 
- Cadda una tieneun enfoque diferente y es interesante para ciertos casos concretos, ademas de tener sus beneficios y problemas.
- Es importante tener en cuenta que las capacidades de Entity Framework en .NET "tradicional" y en .NET core son copletamente 
- diferentes.
-Asi los tres modos de trabajo descritos a continuacion estan completamente soportados en EF6, pero EF Core solamente soporta "Code First" en .NET
-Core ni esta ni se le espera.
-\section{Conclusiones}
-El uso de un ORM es una alternativa sumamente efectiva a la hora de trasladar el modelo conceptual(orientado a objetos)
-al esquema relacional nativo de la bas bases de datos SQL. Evita la inclusion de sentencias SQL embebidas en el codigo de la aplicacion, lo que a su vez facilita la migracion
-hacia otro sistemas gestor de bases de datos, Incorpora una capa de abstraccion. Al ser realizado, en esta capa, de manera automatica la conversion de 
-instrucciones orientadas a objetos, a sentencias SQL, minimiza la ocurrencia de errores humanos.
+ \subsection{Tecnologia Partitioning}
+ Partitioning es una división de base de datos lógica o sus elementos
+  constituyentes en partes independientes. La partición de bases de datos
+   se hace normalmente por razones de mantenimiento, rendimiento o manejo. 
 
-De cualquier modo, utilizar un ORM no debe ser considerado una panacea, sino que debe usarse a discrecion; teniendo en cuenta las 
-particularidades de cada problema a modela. En determinados casos no es recomendable el uso de un ORM,
-sobre todo cuando se imponen tiempos de respuesta minimos o se requiere una menor sobrecarga. En estos casos lo mas conveniente es el uso de un 
-microORM; evitando siempre que sea posible las inyecciones de SQL Inline.
+Una aplicación favorable es en un sistema de administración de bases de datos 
+distribuidas. Cada partición puede ser extendida hasta múltiples nodos, y los 
+usuarios en el nodo pueden hacer transacciones locales en la partición. Esto 
+aumenta el rendimiento en sitios que tienen transacciones regularmente 
+involucrando ciertas vistas de datos, y manteniendo la disponibilidad y 
+la seguridad. 
+
+El objetivo principal de particionar es ayudar en el mantenimiento de 
+tablas grandes y reducir el tiempo de respuesta general para leer y cargar
+ datos para operaciones SQL particulares. 
+\subsubsection{Particionamiento Vertical en tablas}
+\includegraphics[width=7cm, height=7cm]{Imagenes/img1.png}
+El particionamiento vertical de tablas es principalmente usado para 
+incrementar el desempeño especialmente en casos cuando una consulta
+ retorna todas las columnas de una tabla que contiene un número de
+  columnas de texto muy amplio. En este caso, para reducir los tiempos 
+  de acceso, las columnas pueden ser divididas a su propia tabla. 
+  Otro ejemplo es restringir el acceso a datos sensibles, por ejemplo 
+  contraseñas, información salarial, etc.
+\subsubsection{Particionamiento Horizontal en tablas.}
+El particionamiento horizontal divide una tabla en múltiples tablas que
+ contienen el mismo número de columnas, pero menos filas. Por ejemplo, 
+ si una tabla contiene un gran número de filas que representan reportes
+  mensuales podría ser particionada horizontalmente en tablas por años, 
+  con cada tabla representando todos los reportes para un año específico.
+   De esta manera las consultas que requieren datos para un año específico
+    sólo referenciarán la tabla apropiada. Las tablas deberían ser particionadas
+     en una manera que las consultas referencian tan pocas tablas como sea posible.
+\includegraphics[width=7cm, height=7cm]{Imagenes/img2.png}
+\subsubsection{Beneficios del particionamiento}
+El particionamiento brinda grandes beneficios al mejorar la capacidad de 
+administración, el desempeño y la disponibilidad. No es inusual que el
+ particionamiento mejore mucho más el desempeño de ciertas operaciones de
+  mantenimiento y consultas. Además, el particionamiento puede reducir 
+  enormemente el costo total de propiedad de los datos, al utilizar un
+   enfoque de “archivo por niveles” para mantener la información relevante
+    más antigua aún online en dispositivos de almacenamiento de bajo costo.
+     El particionamiento también permite a los diseñadores y administradores
+      de base de datos abordar algunos de los problemas más difíciles planteados
+       por las aplicaciones de vanguardia. Es una herramienta clave para crear 
+       sistemas de múltiples terabytes o sistemas con requisitos de disponibilidad
+        extremadamente altos. 
+\subsection{Tecnologia REPLICATION}
+Es el proceso de copiar y almacenar datos en múltiples ubicaciones. 
+El proceso de replicación puede ser único o continuo, según los requisitos 
+de la organización; este último tiene como objetivo garantizar que los datos
+ replicados se actualicen periódicamente y sean coherentes con la fuente. 
+
+El propósito principal de la replicación de datos es mejorar la 
+disponibilidad y accesibilidad de los datos y la solidez y consistencia 
+del sistema. 
+
+El término replicación se refiere a la operación de copiar 
+y administrar  objetos de base de datos en múltiples bases de 
+datos a  lo largo de un sistema distribuido, en este caso, existen 
+varias copias del mismo objeto en diferentes  localidades.  
+
+La replicación es utilizada para mejorar el  rendimiento de 
+la base de datos local y brindar alta disponibilidad en el  
+sistema; ya que existen  localidades alternas con copias o réplicas 
+de los objetos de base de datos.    Por ejemplo, una aplicación puede 
+normalmente acceder a la base de  datos  local,  en lugar de un  servidor
+ remoto para minimizar el tráfico de red y  lograr un máximo  rendimiento.
+  La replicación mejora la disponibilidad de las aplicaciones debido a que 
+  provee localidades alternas para el  acceso de los datos. Si una  de las 
+  localidades no esta disponible, los usuarios pueden continuar  consultando 
+  o modificando la información, en cualquiera de las localidades restantes. En
+    otras palabras la replicación provee una excelente alternativa como respuesta
+     a fallos a  un tiempo de caída en una localidad particular. 
+\begin{itemize}
+   \item Rendimiento: El rendimiento es mejorado mediante el uso de cachés en clientes o servidores. El uso de cachés permite mantener copias de los resultados obtenidos en llamadas anteriores, reduciendo el coste de llamadas idénticas. Por otro lado, normalmente, hay más lectura que escritura en una base de datos, por lo que tener varios nodos solo procesando la lectura puede traer un gran beneficio de rendimiento en una base de datos muy consultada.
+   \item A prueba de fallos: Con la replicación ganamos tolerancia a diferentes tipos de fallos:
+   \begin{itemize}
+      \item Fallos en el servidor: Un esclavo estando casi sincrónicamente actualizado puede ser útil en caso de que el nodo maestro caiga, ya que puede reemplazarlo sin detener el servicio. 
+      \item Fallos bizantinos: Las fallas bizantinas, son capaces de confundir los sistemas de detección de fallas. 
+   \end{itemize}
+   \item Fiabilidad: La replicación garantiza que los datos han sido copiados a otro nodo en caso de que el nodo maestro haya sufrido un desperfecto.
+   \item Generación de bloqueos: aunque esta es más precisa, también se puede usar para procesos que necesiten leer datos, generando bloqueos. Al hacerlo sobre un esclavo esto no interviene en el funcionamiento de todo el sistema. Es muy usado para, por ejemplo, hacer copias de seguridad o extraer grandes cantidades de datos para generar estadísticas. 
+   \item Alta disponibilidad: La proporción de tiempo que el servicio está accesible con tiempos de respuesta razonables es cercana al 100 por ciento. Sin embargo, puede haber fallos en el servidor o desconexiones de red que hagan que la disponibilidad disminuya. 
+\end{itemize}
+ 
+
+La replicación se usa mucho en sistema de acceso a datos por varios motivos: 
+\section{Conclusiones}
+   \begin{itemize}
+      \item Replicación: Para  el logro de alta disponibilidad, requiere un análisis de las tablas empleadas por los  sistemas para poder construir réplicas en la base de datos secundaria. 
+      \item Particionamiento: Dividir una gran base de datos monolitica en varias bases de datos mas pequeñas basadas en la cohesión de datos.
+      \item Fracmentacion: Dividir una tabla grande de datos horizontalmente, es decir, en filas. Una tabla que contiene cientos de millones de filas se puede dividir en varias tablas que contienen 1 millón de filas cada una. 
+   \end{itemize}
 \section{Recomendaciones}
+Para  implementar alta disponibilidad en un  sistema, es necesario  comprender el nivel de disponibilidad que los usuarios  requieren en las  aplicaciones y  su impacto financiero, por lo que se debe  definir un acuerdo de nivel de servicio donde se debe realizar  una revisión de   las aplicaciones críticas y los horarios de operación, así como el costo de una eventual falla del sistema, tanto desde la perspectiva del negocio como  a nivel de tecnología.  
+
+ 
+
+La revisión de los recursos tecnológicos actuales de una compañía es obligatoria para   un director de tecnología, ante  el desafío de elevar los niveles de disponibilidad de los sistemas.  
+
+ 
+
+Para la implementación de un sistema de base de datos de alta disponibilidad  de bajo presupuesto,   la replicación y la base de datos en espera, constituyen una excelente alternativa. 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
 %----------------------------------------------------------------------------------------
@@ -270,9 +351,8 @@ microORM; evitando siempre que sea posible las inyecciones de SQL Inline.
 	\bibitem - Asad Ali (2020) Sharding en MongoDB: una guía práctica, Recuperado 19 de Setiembre del 2021, de: https://geekflare.com/es/mongodb-sharding/
 	\bibitem - Rubén Colomer, (27 febrero 2021) ¿Qué es sharding? ¿Qué ventajas e inconvenientes tiene?, Recuperado 19 de Setiembre del 2021, de: https://www.lemmingatwork.com/inversiones/criptomonedas/que-es-sharding/  
 	\bibitem - Craig S. Mullins (2018) ¿Cuáles son los métodos de escalabilidad de la base de datos?, Recuperado 19 de Setiembre del 2021, de: https://nuodb.com/blog/what-are-database-scalability-methods 
-	\bibitem - 
-	\bibitem - 
-	\bibitem - 
+	\bibitem - Oracle (Junio de 2007) Particionamiento en Oracle Database 11g, Recuperado 19 de Setiembre del 2021, de: https://www.oracle.com/technetwork/es/documentation/317489-esa.pdf  
+	\bibitem - Milica Medic (December 4, 2015) Particionamiento de tablas de bases de datos en SQL Server, Recuperado 19 de Setiembre del 2021, de: https://www.sqlshack.com/es/particionamiento-de-tablas-de-bases-de-datos-en-sql-server/ 
 	\end{thebibliography}
 
 %----------------------------------------------------------------------------------------

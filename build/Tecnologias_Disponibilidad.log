@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.7)  19 SEP 2021 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.7)  20 SEP 2021 01:04
 entering extended mode
-**"c:/Users/CarlosM/Desktop/Base De Datos II/I UNIDAD/Tecnologias_Disponibilidad/Tecnologias_Disponibilidad.tex"
-(c:/Users/CarlosM/Desktop/Base De Datos II/I UNIDAD/Tecnologias_Disponibilidad/Tecnologias_Disponibilidad.tex
+**"c:/Users/CarlosM/Desktop/Base De Datos II/I UNIDAD/Tecnologias_Disponibilidad/Tecnologias_De_Disponibilidad/Tecnologias_Disponibilidad.tex"
+(c:/Users/CarlosM/Desktop/Base De Datos II/I UNIDAD/Tecnologias_Disponibilidad/Tecnologias_De_Disponibilidad/Tecnologias_Disponibilidad.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -346,10 +346,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box51
-) (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\build\Tecnologias_Disponibilidad.aux
-
-LaTeX Warning: Label `-' multiply defined.
-
+) (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.aux
 
 LaTeX Warning: Label `-' multiply defined.
 
@@ -475,7 +472,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
 LaTeX Info: Redefining \nameref on input line 59.
- (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\build\Tecnologias_Disponibilidad.out) (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\build\Tecnologias_Disponibilidad.out)
+ (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.out) (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.out)
 \@outlinefile=\write3
 \openout3 = `Tecnologias_Disponibilidad.out'.
 
@@ -521,84 +518,210 @@ Package lettrine.sty Info: Targeted height = 30.07506pt
 [1{C:/Users/CarlosM/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+] [2]
+<Imagenes/img1.png, id=80, 277.035pt x 141.52875pt>
+File: Imagenes/img1.png Graphic file (type png)
+<use Imagenes/img1.png>
+Package pdftex.def Info: Imagenes/img1.png  used on input line 255.
+(pdftex.def)             Requested size: 199.16913pt x 199.18626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--263
+[]
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 255--263
+\T1/pplx/m/n/10 (+20) El par-ti-cionamiento ver-ti-cal de tablas es
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 255--263
+\T1/pplx/m/n/10 (+20) una con-sulta re-torna to-das las colum-nas
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+<Imagenes/img2.png, id=85, 353.06906pt x 141.52875pt>
+File: Imagenes/img2.png Graphic file (type png)
+<use Imagenes/img2.png>
+Package pdftex.def Info: Imagenes/img2.png  used on input line 272.
+(pdftex.def)             Requested size: 199.17192pt x 199.18626pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Imagenes/img1.png> <./Imagenes/img2.png>]
+LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 314.
+ (C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+) [5]
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 []\T1/pplx/m/n/10 (+20) Raquel Gar-cía (2020) Shard-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 \T1/pplx/m/n/10 (+20) ing, ven-ta-jas y desven-ta-jas
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 267--268
+Underfull \hbox (badness 4556) in paragraph at lines 348--349
 \T1/pplx/m/n/10 (+20) de su apli-cación, Re-cu-per-ado
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 267--268
+Underfull \hbox (badness 1635) in paragraph at lines 348--349
 \T1/pplx/m/n/10 (+20) 19 de Setiem-bre del 2021, de:
  []
 
 
-Overfull \hbox (1.05981pt too wide) in paragraph at lines 267--268
+Overfull \hbox (1.05981pt too wide) in paragraph at lines 348--349
 \T1/pplx/m/n/10 (-20) https://blog.mdcloud.es/sharding-
  []
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.280 \end{document}
-                    
 
-] (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\build\Tecnologias_Disponibilidad.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+[]\T1/pplx/m/n/10 (+20) Ankush Thakur (2020) ¾Qué
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 349--350
+\T1/pplx/m/n/10 (+20) es Mon-goDB Shard-ing y las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\T1/pplx/m/n/10 (+20) mejores prác-ti-cas?, Re-cu-per-
+ []
+
+
+Overfull \hbox (7.83336pt too wide) in paragraph at lines 349--350
+\T1/pplx/m/n/10 (-20) https://geekflare.com/es/mongodb-
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 350--351
+[]\T1/pplx/m/n/10 (+20) José Mal-don-ado (2020) Shard-
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 350--351
+\T1/pplx/m/n/10 (+20) ing, una opor-tu-nidad para la
+ []
+
+
+Overfull \hbox (69.3266pt too wide) in paragraph at lines 350--351
+\T1/pplx/m/n/10 (-20) https://es.cointelegraph.com/explained/sharding-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+\T1/pplx/m/n/10 (+20) an-opportunity-for-distributed-
+ []
+
+
+Overfull \hbox (7.83336pt too wide) in paragraph at lines 351--352
+\T1/pplx/m/n/10 (-20) https://geekflare.com/es/mongodb-
+ []
+
+
+Overfull \hbox (148.98808pt too wide) in paragraph at lines 352--353
+\T1/pplx/m/n/10 (-20) https://www.lemmingatwork.com/inversiones/criptomonedas/que-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 353--354
+\T1/pplx/m/n/10 (+20) 19 de Setiem-bre del 2021, de:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+\T1/pplx/m/n/10 (+20) https://nuodb.com/blog/what-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+[]\T1/pplx/m/n/10 (+20) Oracle (Ju-nio de 2007) Par-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+\T1/pplx/m/n/10 (+20) ti-cionamiento en Or-a-cle
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 354--355
+\T1/pplx/m/n/10 (+20) Database 11g, Re-cu-per-ado 19
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+\T1/pplx/m/n/10 (+20) de Setiem-bre del 2021, de:
+ []
+
+
+Overfull \hbox (139.43164pt too wide) in paragraph at lines 354--355
+\T1/pplx/m/n/10 (-20) https://www.oracle.com/technetwork/es/documentation/317489-
+ []
+
+
+Overfull \hbox (63.67595pt too wide) in paragraph at lines 355--356
+\T1/pplx/m/n/10 (-20) https://www.sqlshack.com/es/particionamiento-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+\T1/pplx/m/n/10 (+20) de-tablas-de-bases-de-datos-en-
+ []
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.360 \end{document}
+                    ] (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Tecnologias_Disponibilidad.out' has not changed.
-(rerunfilecheck)             Checksum: 5544B1465E4DDE9146AD7FCFA1A1972F;1782.
+(rerunfilecheck)             Checksum: 6306FF6539928BF3F5D3CB45CE641FB6;2673.
  ) 
 Here is how much of TeX's memory you used:
- 13819 strings out of 479334
- 213787 string characters out of 2866955
+ 13892 strings out of 479334
+ 215269 string characters out of 2866955
  567911 words of memory out of 3000000
- 30803 multiletter control sequences out of 15000+200000
- 452458 words of font info for 242 fonts, out of 3000000 for 9000
+ 30838 multiletter control sequences out of 15000+200000
+ 453940 words of font info for 260 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,74p,401b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,13n,74p,686b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/CarlosM/AppData/Roaming/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on "c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\build\Tecnologias_Disponibilidad.pdf" (4 pages, 89442 bytes).
+Output written on "c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.pdf" (6 pages, 131656 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 62561 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 64651 words of extra memory for PDF output out of 74296 (max. 10000000)
 
