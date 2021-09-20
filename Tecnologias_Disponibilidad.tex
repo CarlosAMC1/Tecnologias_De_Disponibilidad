@@ -32,7 +32,7 @@
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{Tecnologias de Disponibilidad $\bullet$ Agosto 2021 $\bullet$ } % Custom header text
+\fancyhead[C]{Tecnologias de Disponibilidad $\bullet$ Septiembre 2021 $\bullet$ } % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 \usepackage{titling} % Customizing the title section
@@ -67,11 +67,21 @@
 
 \section{Resumen}
 
-\lettrine[nindent=0em,lines=3]{L}a asignación de objetos relacionales es una técnica que le permite asignar cada una de las filas de nuestras
-tablas en la base de datos de objetos, donde las columnas de la tabla corresponden a las propiedades de estos
-objetos. La técnica, utilizada en la programación para convertir los tipos de datos con los que trabajan en un
-lenguaje orientado a objetos, los tipos de datos con los que trabajan en un sistema de base de datos relacional
-para la persistencia de datos en el objeto de mapeo-relacional
+\lettrine[nindent=0em,lines=3] Las bases de 
+datos han evolucionado de decenas de megabytes a
+ terabytes y aún hasta petabytes. Agregando complejidad
+  a la administración y sistematizacion de estas enormes 
+  bases de datos. Para ello se utilizan diferentes tecnologías 
+  y sistemas que ayudan a facilitar esta tarea. 
+
+La asignación de objetos relacionales es una técnica que le 
+permite asignar cada una de las filas de nuestras tablas en la
+ base de datos de objetos, donde las columnas de la tabla corresponden 
+ a las propiedades de estos objetos. La técnica, utilizada en la
+  programación para convertir los tipos de datos con los que trabajan
+   en un lenguaje orientado a objetos, los tipos de datos con los que 
+   trabajan en un sistema de base de datos relacional para la persistencia
+    de datos en el objeto de mapeorelacional. 
 
 
 
@@ -80,33 +90,39 @@ para la persistencia de datos en el objeto de mapeo-relacional
 \section{Abstract}
 
 
-The assignment of relational objects is a technique that would assign each of the rows of our
-tables in the object database, where the columns of the table correspond to the properties of these
-Objects. The technique, used in programming to convert the data types they work with into a
-object-oriented language, the data types that you work with in a relational database system
-for data persistence in the relational-mapping object
+Databases have evolved from tens of megabytes to 
+terabytes and even to petabytes. Adding complexity to 
+the administration and systematization of these huge databases.
+ For this, different technologies and systems are used to help 
+ facilitate this task.
 
+Relational object mapping is a technique that allows 
+you to map each of the rows of our tables in the object database,
+ where the columns of the table correspond to the properties of these
+  objects. The technique, used in programming to convert the data types 
+  with which they work in an object-oriented language, the data types with
+   which they work in a relational database system for the persistence of 
+   data in the object of relational mapping .
 
 
 
 %------------------------------------------------
 \section{Introduccion}
 
-ORM es el mapeo objeto-relacional (más conocido por su nombre en inglés, Object- Relational mapping), consiste
-en una técnica de programación para convertir datos entre el lenguaje de programación
-orientado a objetos utilizado y el sistema de base de datos relacional utilizado en el
-desarrollo de aplicaciones. Esto posibilita el uso de las características propias de la
-orientación a objetos (básicamente herencia y polimorfismo). Entre estos paquetes comerciales tenemos
-una lista alfabética de los principales motores de mapeo objeto relacional, tales como:
-ColdFusion, Common Lisp, Java, JavaScript, .NET, Perl, PHP, Python, Ruby, Smalltalk, C++. El problema que surge, porque hoy en
-día prácticamente todas las aplicaciones están diseñadas para usar la Programación
-Orientación a Objetos (POO), mientras que las bases de datos más extendidas son del
-tipo relacional y estas solo permiten guardar tipos de datos primitivos (enteros, cadenas
-de texto) por lo que no se puede guardar de El problema que surge, porque hoy en
-día prácticamente todas las aplicaciones están diseñadas para usar la Programación
-Orientación a Objetos (POO), mientras que las bases de datos más extendidas son del
-tipo relacional y estas solo permiten guardar tipos de datos primitivos (enteros, cadenas de texto) por lo que no se puede guardar de 
 
+
+Es bastante difícil proveer una administración apropiada para este
+ tipo de bases de datos, tareas de mantenimiento, afinación y respaldo
+  se convierten en imposibles; si la base de datos no puede sacarse de
+   servicio por un momento, incluso algunas de estas tareas pueden tomar
+    varios días al no ser actualizados. 
+
+Debido a esto, la adopción de una tecnología de alta disponibilidad para
+ sistemas de base de datos es definitiva para garantizar el exito del sistema.  
+
+Existe una mediana variedad de sistemas de tecnología disponibles en la 
+actualidad, dependiendo de su funcionamiento, de su uso o sus requerimientos.
+ En este documento daremos un vistazo a fondo a dos de estas tecnologías.  
 
 \section{Desarrollo}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.7)  20 SEP 2021 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.7)  20 SEP 2021 02:20
 entering extended mode
 **"c:/Users/CarlosM/Desktop/Base De Datos II/I UNIDAD/Tecnologias_Disponibilidad/Tecnologias_De_Disponibilidad/Tecnologias_Disponibilidad.tex"
 (c:/Users/CarlosM/Desktop/Base De Datos II/I UNIDAD/Tecnologias_Disponibilidad/Tecnologias_De_Disponibilidad/Tecnologias_Disponibilidad.tex
@@ -522,20 +522,20 @@ Package lettrine.sty Info: Targeted height = 30.07506pt
 <Imagenes/img1.png, id=80, 277.035pt x 141.52875pt>
 File: Imagenes/img1.png Graphic file (type png)
 <use Imagenes/img1.png>
-Package pdftex.def Info: Imagenes/img1.png  used on input line 255.
+Package pdftex.def Info: Imagenes/img1.png  used on input line 271.
 (pdftex.def)             Requested size: 199.16913pt x 199.18626pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--263
+Underfull \hbox (badness 10000) in paragraph at lines 271--279
 []
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 255--263
+Underfull \hbox (badness 2050) in paragraph at lines 271--279
 \T1/pplx/m/n/10 (+20) El par-ti-cionamiento ver-ti-cal de tablas es
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 255--263
+Underfull \hbox (badness 1552) in paragraph at lines 271--279
 \T1/pplx/m/n/10 (+20) una con-sulta re-torna to-das las colum-nas
  []
 
@@ -546,163 +546,163 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Imagenes/img2.png, id=85, 353.06906pt x 141.52875pt>
 File: Imagenes/img2.png Graphic file (type png)
 <use Imagenes/img2.png>
-Package pdftex.def Info: Imagenes/img2.png  used on input line 272.
+Package pdftex.def Info: Imagenes/img2.png  used on input line 288.
 (pdftex.def)             Requested size: 199.17192pt x 199.18626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./Imagenes/img1.png> <./Imagenes/img2.png>]
-LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 314.
+LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 330.
  (C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 ) [5]
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 []\T1/pplx/m/n/10 (+20) Raquel Gar-cía (2020) Shard-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 \T1/pplx/m/n/10 (+20) ing, ven-ta-jas y desven-ta-jas
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 348--349
+Underfull \hbox (badness 4556) in paragraph at lines 364--365
 \T1/pplx/m/n/10 (+20) de su apli-cación, Re-cu-per-ado
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 348--349
+Underfull \hbox (badness 1635) in paragraph at lines 364--365
 \T1/pplx/m/n/10 (+20) 19 de Setiem-bre del 2021, de:
  []
 
 
-Overfull \hbox (1.05981pt too wide) in paragraph at lines 348--349
+Overfull \hbox (1.05981pt too wide) in paragraph at lines 364--365
 \T1/pplx/m/n/10 (-20) https://blog.mdcloud.es/sharding-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 []\T1/pplx/m/n/10 (+20) Ankush Thakur (2020) ¾Qué
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 349--350
+Underfull \hbox (badness 5607) in paragraph at lines 365--366
 \T1/pplx/m/n/10 (+20) es Mon-goDB Shard-ing y las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 \T1/pplx/m/n/10 (+20) mejores prác-ti-cas?, Re-cu-per-
  []
 
 
-Overfull \hbox (7.83336pt too wide) in paragraph at lines 349--350
+Overfull \hbox (7.83336pt too wide) in paragraph at lines 365--366
 \T1/pplx/m/n/10 (-20) https://geekflare.com/es/mongodb-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 350--351
+Underfull \hbox (badness 4467) in paragraph at lines 366--367
 []\T1/pplx/m/n/10 (+20) José Mal-don-ado (2020) Shard-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 350--351
+Underfull \hbox (badness 2478) in paragraph at lines 366--367
 \T1/pplx/m/n/10 (+20) ing, una opor-tu-nidad para la
  []
 
 
-Overfull \hbox (69.3266pt too wide) in paragraph at lines 350--351
+Overfull \hbox (69.3266pt too wide) in paragraph at lines 366--367
 \T1/pplx/m/n/10 (-20) https://es.cointelegraph.com/explained/sharding-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 \T1/pplx/m/n/10 (+20) an-opportunity-for-distributed-
  []
 
 
-Overfull \hbox (7.83336pt too wide) in paragraph at lines 351--352
+Overfull \hbox (7.83336pt too wide) in paragraph at lines 367--368
 \T1/pplx/m/n/10 (-20) https://geekflare.com/es/mongodb-
  []
 
 
-Overfull \hbox (148.98808pt too wide) in paragraph at lines 352--353
+Overfull \hbox (148.98808pt too wide) in paragraph at lines 368--369
 \T1/pplx/m/n/10 (-20) https://www.lemmingatwork.com/inversiones/criptomonedas/que-
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 353--354
+Underfull \hbox (badness 1635) in paragraph at lines 369--370
 \T1/pplx/m/n/10 (+20) 19 de Setiem-bre del 2021, de:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T1/pplx/m/n/10 (+20) https://nuodb.com/blog/what-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 []\T1/pplx/m/n/10 (+20) Oracle (Ju-nio de 2007) Par-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 \T1/pplx/m/n/10 (+20) ti-cionamiento en Or-a-cle
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 354--355
+Underfull \hbox (badness 4531) in paragraph at lines 370--371
 \T1/pplx/m/n/10 (+20) Database 11g, Re-cu-per-ado 19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 \T1/pplx/m/n/10 (+20) de Setiem-bre del 2021, de:
  []
 
 
-Overfull \hbox (139.43164pt too wide) in paragraph at lines 354--355
+Overfull \hbox (139.43164pt too wide) in paragraph at lines 370--371
 \T1/pplx/m/n/10 (-20) https://www.oracle.com/technetwork/es/documentation/317489-
  []
 
 
-Overfull \hbox (63.67595pt too wide) in paragraph at lines 355--356
+Overfull \hbox (63.67595pt too wide) in paragraph at lines 371--372
 \T1/pplx/m/n/10 (-20) https://www.sqlshack.com/es/particionamiento-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 \T1/pplx/m/n/10 (+20) de-tablas-de-bases-de-datos-en-
  []
 
 [6pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.-}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.360 \end{document}
+l.376 \end{document}
                     ] (c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -711,15 +711,15 @@ Package rerunfilecheck Info: File `Tecnologias_Disponibilidad.out' has not chang
 (rerunfilecheck)             Checksum: 6306FF6539928BF3F5D3CB45CE641FB6;2673.
  ) 
 Here is how much of TeX's memory you used:
- 13892 strings out of 479334
- 215269 string characters out of 2866955
- 567911 words of memory out of 3000000
+ 13884 strings out of 479334
+ 215207 string characters out of 2866955
+ 567919 words of memory out of 3000000
  30838 multiletter control sequences out of 15000+200000
- 453940 words of font info for 260 fonts, out of 3000000 for 9000
+ 453494 words of font info for 254 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,74p,686b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,13n,74p,686b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/CarlosM/AppData/Roaming/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on "c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.pdf" (6 pages, 131656 bytes).
+Output written on "c:/Users\CarlosM\Desktop\Base De Datos II\I UNIDAD\Tecnologias_Disponibilidad\Tecnologias_De_Disponibilidad\build\Tecnologias_Disponibilidad.pdf" (6 pages, 131498 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
